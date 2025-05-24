@@ -6,6 +6,6 @@ For compiling the system:
 
 For running the system, see the probo interfaces. For example:
 
-`./ASSAT_LLM-p <task> -f <file> [-a <query>] `
+`./ASSAT_LLM -p <task> -f <file> [-a <query>] `
 
 
