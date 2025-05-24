@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "": "",
+        "jsonc": "json",
+        "ostream": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "regex": "cpp",
+        "iostream": "cpp"
+    }
+}

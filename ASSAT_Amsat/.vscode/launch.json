@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "(gdb) 启动",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/ASSAT",
+            "args": [
+                "-f",
+                "/home/dgc/ASSAT_pi/example/admbuster_1000.af",
+                "-p",
+                "SE-PR"
+            ],
+            //"cwd": "/home/dgc/ArgSemSAT_old/src",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build project",
+            "MIMode": "gdb"
+        },
+        {
+            "name": "C/C++ Runner: Debug Session",
+            "type": "cppdbg",
+            "request": "launch",
+            "args": [
+                "-f",
+                "/home/lq36298/ArgSemSAT_dgc_amsat/example/admbuster_1000.af",
+                "-p",
+                "SE-PR"
+            ],
+            "stopAtEntry": false,
+            "externalConsole": false,
+            "cwd": "/home/lq36298/ArgSemSAT_dgc_amsat/src",
+            "program": "/home/lq36298/ArgSemSAT_dgc_amsat/ASSAT",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+       
+    ]
+}
